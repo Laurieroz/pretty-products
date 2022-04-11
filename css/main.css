@@ -18,7 +18,7 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
-  padding; .4rem;
+  padding: .4rem;
   margin: 0;
 }
 
@@ -76,7 +76,6 @@ div {
   padding-right: .5em;
   margin-bottom: .6rem;
   margin-top: .6rem;
-  margin: .25em;
   text-decoration: none;
   color: #fff;
   background-color: #6f00e7;
@@ -85,16 +84,16 @@ div {
   font-family: Oswald, sans-serif;
 }
 
+.fav {
+  align-content: flex-end;
+  float: right;
+  margin-right: .7rem;
+  margin-top: 1rem;
+}
+
 .share {
   align-content: flex-end;
   float: right;
   margin-right: 1.5rem;
-  margin-top: 1rem;
-}
-
-.fav {
-  align-content: space-between;
-  float: right;
-  margin-right: .7rem;
   margin-top: 1rem;
 }
